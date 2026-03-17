@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/jpeg" href="logo.png">
 
   <!-- SEO -->
   <title>SyncBuilds — API Integrations &amp; Automation Systems</title>
-  <meta name="description" content="SyncBuilds builds API integrations, CRM connections, and workflow automation systems for startups that need reliable backend infrastructure." />
+  <meta name="description"
+    content="SyncBuilds builds API integrations, CRM connections, and workflow automation systems for startups that need reliable backend infrastructure." />
   <meta name="author" content="Mukul Mohan" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="SyncBuilds — API Integrations &amp; Automation Systems" />
-  <meta property="og:description" content="SyncBuilds builds API integrations, CRM connections, and workflow automation systems for startups that need reliable backend infrastructure." />
+  <meta property="og:description"
+    content="SyncBuilds builds API integrations, CRM connections, and workflow automation systems for startups that need reliable backend infrastructure." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://syncbuilds.github.io" />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
   <!-- ═══════════════════════════════════════════
@@ -32,8 +37,8 @@
       <div class="hero-body">
         <p class="hero-eyebrow">Technical contractor · API &amp; Automation</p>
         <h1 class="hero-headline">
-          API Integrations and Automation Systems<br />
-          for Fast-Moving Startups
+          Custom API Integrations and Automations <br />
+          for Modern Operations.
         </h1>
         <p class="hero-sub">
           SyncBuilds builds reliable integrations between APIs, CRMs, payment
@@ -74,29 +79,29 @@
           <span class="service-num">01</span>
           <h3>API Integrations</h3>
           <p>Connect two or more APIs so data flows automatically between systems.
-          Authentication, rate limiting, pagination, and error handling
-          are handled properly — not hacked together.</p>
+            Authentication, rate limiting, pagination, and error handling
+            are handled properly — not hacked together.</p>
         </div>
         <div class="service-card">
           <span class="service-num">02</span>
           <h3>CRM + Payment Connections</h3>
           <p>Sync Stripe, HubSpot, Salesforce, or similar platforms without
-          writing the same custom script three times. Events propagate
-          reliably and data stays consistent across systems.</p>
+            writing the same custom script three times. Events propagate
+            reliably and data stays consistent across systems.</p>
         </div>
         <div class="service-card">
           <span class="service-num">03</span>
           <h3>Automation Pipelines</h3>
           <p>Trigger-based workflows that respond to real events: new payments,
-          form submissions, status changes, webhook calls. Runs
-          unattended with retry logic and failure alerting.</p>
+            form submissions, status changes, webhook calls. Runs
+            unattended with retry logic and failure alerting.</p>
         </div>
         <div class="service-card">
           <span class="service-num">04</span>
           <h3>Internal Operational Tools</h3>
           <p>Small, purpose-built tools that eliminate repetitive manual work:
-          data pulls, report generation, bulk operations,
-          cross-system lookups.</p>
+            data pulls, report generation, bulk operations,
+            cross-system lookups.</p>
         </div>
       </div>
     </div>
@@ -112,8 +117,10 @@
       <div class="stack-grid">
         <div class="stack-tag">Python</div>
         <div class="stack-tag">REST APIs</div>
-        <div class="stack-tag">Node.js</div>
-        <div class="stack-tag">JSON data processing</div>
+        <div class="stack-tag">Google Tag Manager</div>
+        <div class="stack-tag">Webhooks</div>
+        <div class="stack-tag">Zapier</div>
+        <div class="stack-tag">Custom Pixels</div>
       </div>
     </div>
   </section>
@@ -134,8 +141,8 @@
             <h3>Understand the System</h3>
           </div>
           <p>Map all APIs involved, document authentication methods, identify
-          triggers and data sources, and define the expected data flow
-          end-to-end before writing a single line of code.</p>
+            triggers and data sources, and define the expected data flow
+            end-to-end before writing a single line of code.</p>
         </div>
         <div class="process-step">
           <div class="process-header">
@@ -143,8 +150,8 @@
             <h3>Design the Integration</h3>
           </div>
           <p>Plan event triggers, API request sequences, JSON transformation
-          logic, and failure handling. Define what happens when an API is
-          down, returns unexpected data, or a request times out.</p>
+            logic, and failure handling. Define what happens when an API is
+            down, returns unexpected data, or a request times out.</p>
         </div>
         <div class="process-step">
           <div class="process-header">
@@ -152,8 +159,8 @@
             <h3>Build and Test</h3>
           </div>
           <p>Implement the integration with retry logic, input validation, and
-          structured logging. Test against live sandbox environments
-          before any production deployment.</p>
+            structured logging. Test against live sandbox environments
+            before any production deployment.</p>
         </div>
         <div class="process-step">
           <div class="process-header">
@@ -161,8 +168,8 @@
             <h3>Deliver Production Automation</h3>
           </div>
           <p>Stable automation systems that remove manual work and move data
-          between services automatically. Delivered with documentation
-          covering the setup, configuration, and failure modes.</p>
+            between services automatically. Delivered with documentation
+            covering the setup, configuration, and failure modes.</p>
         </div>
       </div>
     </div>
@@ -182,15 +189,16 @@
           <div class="case-row">
             <span class="case-label">Problem</span>
             <p>Sales team manually logging every Stripe payment into HubSpot.
-            Revenue data was hours behind, prone to entry errors,
-            and consumed ~5 hours of team time per week.</p>
+              Revenue data was hours behind, prone to entry errors,
+              and consumed ~5 hours of team time per week.</p>
           </div>
           <div class="case-row">
             <span class="case-label">Solution</span>
             <p>Built a webhook listener that intercepts Stripe
-            <code>payment_intent.succeeded</code> events, maps payment data to
-            HubSpot deal fields, and creates or updates contact and deal records
-            via the HubSpot API. Includes deduplication and retry logic.</p>
+              <code>payment_intent.succeeded</code> events, maps payment data to
+              HubSpot deal fields, and creates or updates contact and deal records
+              via the HubSpot API. Includes deduplication and retry logic.
+            </p>
           </div>
           <div class="case-row">
             <span class="case-label">Stack</span>
@@ -199,7 +207,7 @@
           <div class="case-row">
             <span class="case-label">Outcome</span>
             <p>Zero manual data entry. CRM reflects payment status in under
-            10 seconds. Eliminated 5 hours of weekly admin work.</p>
+              10 seconds. Eliminated 5 hours of weekly admin work.</p>
           </div>
         </article>
 
@@ -208,15 +216,15 @@
           <div class="case-row">
             <span class="case-label">Problem</span>
             <p>E-commerce orders arriving from three different channels required
-            manual reconciliation before fulfillment could begin. Staff
-            were the bottleneck between order placement and dispatch.</p>
+              manual reconciliation before fulfillment could begin. Staff
+              were the bottleneck between order placement and dispatch.</p>
           </div>
           <div class="case-row">
             <span class="case-label">Solution</span>
             <p>Unified order ingestion pipeline pulling from all three channel
-            APIs on a polling interval. Normalises order data into a common
-            schema, deduplicates across sources, and pushes enriched
-            orders to the fulfillment API automatically.</p>
+              APIs on a polling interval. Normalises order data into a common
+              schema, deduplicates across sources, and pushes enriched
+              orders to the fulfillment API automatically.</p>
           </div>
           <div class="case-row">
             <span class="case-label">Stack</span>
@@ -225,7 +233,7 @@
           <div class="case-row">
             <span class="case-label">Outcome</span>
             <p>Order-to-fulfillment latency cut from 2–4 hours to under 3
-            minutes. Zero human steps required in the standard flow.</p>
+              minutes. Zero human steps required in the standard flow.</p>
           </div>
         </article>
 
@@ -234,15 +242,15 @@
           <div class="case-row">
             <span class="case-label">Problem</span>
             <p>Reporting team pulling data manually from four separate SaaS APIs
-            each Monday. The process took half a day and produced inconsistent
-            results depending on who ran it.</p>
+              each Monday. The process took half a day and produced inconsistent
+              results depending on who ran it.</p>
           </div>
           <div class="case-row">
             <span class="case-label">Solution</span>
             <p>Scheduled aggregation service that authenticates with each API,
-            pulls the required data sets, applies transformation rules, joins
-            records by a common identifier, and outputs a single normalised
-            JSON dataset to a shared endpoint every Sunday night.</p>
+              pulls the required data sets, applies transformation rules, joins
+              records by a common identifier, and outputs a single normalised
+              JSON dataset to a shared endpoint every Sunday night.</p>
           </div>
           <div class="case-row">
             <span class="case-label">Stack</span>
@@ -251,7 +259,7 @@
           <div class="case-row">
             <span class="case-label">Outcome</span>
             <p>Reports available automatically every Monday morning.
-            Half-day manual process eliminated entirely.</p>
+              Half-day manual process eliminated entirely.</p>
           </div>
         </article>
 
@@ -302,4 +310,5 @@
   </footer>
 
 </body>
+
 </html>
